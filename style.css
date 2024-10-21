@@ -1,0 +1,63 @@
+body{
+    display: grid;
+    margin: 0;
+    place-items: center;
+    height: 80vh;
+    background-image: url("assest/image.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1{
+    color: rgb(247, 246, 255);
+    text-shadow: 4px 4px rgb(46, 1, 40);
+}
+.box{
+    box-shadow: 3px 16px 20px 3px black;
+    background-color: rgb(150, 117, 91);
+    padding: 30px;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+.box label{
+   font-style: italic;
+   font-size: 20px;
+}
+.box input{
+    padding: 4px 10px;
+    border: 1px solid rgb(39, 59, 65);
+    margin-top: 6px;
+    text-align: center;
+    border-radius: 7px;
+
+}
+.box button{
+    border: none;
+    background-color: rgb(70, 24, 2);;
+    padding: 9px 25px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    border-radius: 5px;
+    color: white;
+}
+.box button:hover{
+    background-color: rgb(219, 162, 140);
+    color: rgb(70, 24, 2);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    border-radius: 40px;
+}
+#report_card{
+    color: rgb(7, 7, 7);
+    margin-top: 22px;
+   
+    font-weight: bold;
+}
+
+
+
